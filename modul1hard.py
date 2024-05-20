@@ -45,6 +45,6 @@ print(new_grades) #проверяем как записаны оценки
 stud_po_alph = sorted(students)
 print(stud_po_alph) #проверяем правильно ли отсортирован список
 print(type(stud_po_alph), type(new_grades)) #узнаем тип данных
-jornal = (f'({stud_po_alph[0]}, {new_grades[0]}),({stud_po_alph[1]},{new_grades[1]}),({stud_po_alph[2]},{new_grades[2]}),({stud_po_alph[3]},{new_grades[3]}),({stud_po_alph[4]},{new_grades[4]})')
+jornal = {'Aaron': new_grades[0],'Bilbo' : new_grades[1],'Johnny' : new_grades[2],'Khendrik' : new_grades[3],'Steve' : new_grades[4]}
 print(jornal)
 print(type(jornal))
